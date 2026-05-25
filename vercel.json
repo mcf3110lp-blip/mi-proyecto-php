@@ -1,14 +1,13 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "sys_inventario/**/*.php", "use": "@vercel/php"
+  "functions": {
+    "api/**/*.php": {
+      "runtime": "vercel-php@0.7.3"
+    },
+    "*.php": {
+      "runtime": "vercel-php@0.7.3"
     }
-      ],
+  },
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/sys_inventario/index.php"
-    }
+    { "src": "/(.*)", "dest": "/index.php" }
   ]
 }
