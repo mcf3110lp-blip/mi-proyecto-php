@@ -1,6 +1,0 @@
-Indicaciones:
-modificar el login, el usuario sera su primer nombre y la contraseña sera su apellido.
-crearan una vista con un formulario para registrar un cliente
-en la pantalla de registrar producto estara el boton para registrar un cliente y el formulario tendrá su ID, nombre, dui, dirección , correo y  numero de teléfono, luego mostrar 
-los datos en la base de datos y en una vista de cliente registrado
-crear la base de datos con el nombre de su grupo seguido de un guio bajo y su apellido ejemplo dsw21_mijango
